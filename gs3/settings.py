@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'gs3.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': '',
+        'NAME': 'postgres',
         'USER': 'postgres',
         'PASSWORD': 'postgres',
         'HOST': 'django-aws-ec2-db.ckn8c20ua9rp.us-east-1.rds.amazonaws.com',  # e.g., 'localhost' or '127.0.0.1'
